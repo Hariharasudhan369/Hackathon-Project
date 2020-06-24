@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [emiCalculator-1]]">
+  <listeners>
+    <listener class-name="utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="EMI Calculator Test(failed)(failed)">
+    <classes>
+      <class name="testScenario_002.TC_10">
+        <methods>
+          <include name="invalidDownpayment"/>
+          <include name="getURL"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_10 -->
+      <class name="testScenario_001.TC_06">
+        <methods>
+          <include name="getURL"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="invalidDataCarInterestBoxTest"/>
+        </methods>
+      </class> <!-- testScenario_001.TC_06 -->
+      <class name="testScenario_001.TC_07">
+        <methods>
+          <include name="getURL"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="invalidDataCarLoanTenureBoxTest"/>
+        </methods>
+      </class> <!-- testScenario_001.TC_07 -->
+      <class name="testScenario_002.TC_14">
+        <methods>
+          <include name="invalidLoanFees"/>
+          <include name="getURL"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_14 -->
+      <class name="testScenario_002.TC_13">
+        <methods>
+          <include name="getURL"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="invalidHomeLoanTerm"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_13 -->
+      <class name="testScenario_002.TC_15">
+        <methods>
+          <include name="validDataHomeLoanTest"/>
+          <include name="getURL"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_15 -->
+      <class name="testScenario_002.TC_09">
+        <methods>
+          <include name="getURL"/>
+          <include name="closeBrowser"/>
+          <include name="invalidHomePrice"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_09 -->
+      <class name="testScenario_002.TC_12">
+        <methods>
+          <include name="getURL"/>
+          <include name="closeBrowser"/>
+          <include name="invalidHomeLoanInterest"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_12 -->
+      <class name="testScenario_002.TC_11">
+        <methods>
+          <include name="getURL"/>
+          <include name="closeBrowser"/>
+          <include name="invalidHomeLoanInsuranceAmount"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_11 -->
+      <class name="testScenario_001.TC_05">
+        <methods>
+          <include name="getURL"/>
+          <include name="closeBrowser"/>
+          <include name="invalidDataCarLoanBoxTest"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_001.TC_05 -->
+    </classes>
+  </test> <!-- EMI Calculator Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [emiCalculator-1]] -->

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="86" total="130" passed="44">
+  <reporter-output>
+  </reporter-output>
+  <suite name="emiCalculator-1" duration-ms="151450" started-at="2020-06-24T00:28:51 IST" finished-at="2020-06-24T00:31:23 IST">
+    <groups>
+    </groups>
+    <test name="EMI Calculator Test" duration-ms="151450" started-at="2020-06-24T00:28:51 IST" finished-at="2020-06-24T00:31:23 IST">
+      <class name="testScenario_003.TC_16">
+        <test-method status="PASS" signature="LAsliderAndLoanFeesTallyCheck()[pri:0, instance:testScenario_003.TC_16@4ae3c1cd]" name="LAsliderAndLoanFeesTallyCheck" duration-ms="2333" started-at="2020-06-24T00:30:57 IST" finished-at="2020-06-24T00:31:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LAsliderAndLoanFeesTallyCheck -->
+      </class> <!-- testScenario_003.TC_16 -->
+      <class name="testScenario_003.TC_15">
+        <test-method status="PASS" signature="LALoanFeesAndSliderTallyCheck()[pri:0, instance:testScenario_003.TC_15@3bbc39f8]" name="LALoanFeesAndSliderTallyCheck" duration-ms="2705" started-at="2020-06-24T00:30:55 IST" finished-at="2020-06-24T00:30:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LALoanFeesAndSliderTallyCheck -->
+      </class> <!-- testScenario_003.TC_15 -->
+      <class name="testScenario_003.TC_18">
+        <test-method status="PASS" signature="LTsliderAndLoanAmountTallyCheck()[pri:0, instance:testScenario_003.TC_18@568bf312]" name="LTsliderAndLoanAmountTallyCheck" duration-ms="5658" started-at="2020-06-24T00:31:02 IST" finished-at="2020-06-24T00:31:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LTsliderAndLoanAmountTallyCheck -->
+      </class> <!-- testScenario_003.TC_18 -->
+      <class name="testScenario_003.TC_17">
+        <test-method status="PASS" signature="LTLoanAmountAndSliderTallyCheck()[pri:0, instance:testScenario_003.TC_17@29f69090]" name="LTLoanAmountAndSliderTallyCheck" duration-ms="2405" started-at="2020-06-24T00:31:00 IST" finished-at="2020-06-24T00:31:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LTLoanAmountAndSliderTallyCheck -->
+      </class> <!-- testScenario_003.TC_17 -->
+      <class name="testScenario_003.TC_12">
+        <test-method status="PASS" signature="LASliderAndLoanInterestTallyCheck()[pri:0, instance:testScenario_003.TC_12@67e2d983]" name="LASliderAndLoanInterestTallyCheck" duration-ms="1893" started-at="2020-06-24T00:30:49 IST" finished-at="2020-06-24T00:30:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LASliderAndLoanInterestTallyCheck -->
+      </class> <!-- testScenario_003.TC_12 -->
+      <class name="testScenario_003.TC_11">
+        <test-method status="PASS" signature="LALoanInterestAndSliderTallyCheck()[pri:0, instance:testScenario_003.TC_11@4de5031f]" name="LALoanInterestAndSliderTallyCheck" duration-ms="2461" started-at="2020-06-24T00:30:46 IST" finished-at="2020-06-24T00:30:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LALoanInterestAndSliderTallyCheck -->
+      </class> <!-- testScenario_003.TC_11 -->
+      <class name="testScenario_003.TC_14">
+        <test-method status="PASS" signature="LAsliderAndLoanTermTallyCheck()[pri:0, instance:testScenario_003.TC_14@5ea434c8]" name="LAsliderAndLoanTermTallyCheck" duration-ms="2327" started-at="2020-06-24T00:30:52 IST" finished-at="2020-06-24T00:30:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LAsliderAndLoanTermTallyCheck -->
+      </class> <!-- testScenario_003.TC_14 -->
+      <class name="testScenario_003.TC_13">
+        <test-method status="PASS" signature="LALoanTermAndSliderTallyCheck()[pri:0, instance:testScenario_003.TC_13@5d47c63f]" name="LALoanTermAndSliderTallyCheck" duration-ms="1817" started-at="2020-06-24T00:30:50 IST" finished-at="2020-06-24T00:30:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LALoanTermAndSliderTallyCheck -->
+      </class> <!-- testScenario_003.TC_13 -->
+      <class name="testScenario_002.TC_08">
+        <test-method status="PASS" signature="validLoanFees()[pri:0, instance:testScenario_002.TC_08@8b96fde]" name="validLoanFees" duration-ms="4616" started-at="2020-06-24T00:29:46 IST" finished-at="2020-06-24T00:29:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoanFees -->
+      </class> <!-- testScenario_002.TC_08 -->
+      <class name="testScenario_002.TC_07">
+        <test-method status="PASS" signature="validHomeLoanTerm()[pri:0, instance:testScenario_002.TC_07@15bb6bea]" name="validHomeLoanTerm" duration-ms="4967" started-at="2020-06-24T00:29:41 IST" finished-at="2020-06-24T00:29:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validHomeLoanTerm -->
+      </class> <!-- testScenario_002.TC_07 -->
+      <class name="testScenario_002.TC_06">
+        <test-method status="PASS" signature="validHomeLoanInterest()[pri:0, instance:testScenario_002.TC_06@145eaa29]" name="validHomeLoanInterest" duration-ms="4458" started-at="2020-06-24T00:29:36 IST" finished-at="2020-06-24T00:29:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validHomeLoanInterest -->
+      </class> <!-- testScenario_002.TC_06 -->
+      <class name="testScenario_003.TC_10">
+        <test-method status="PASS" signature="sliderAndEMITallyCheck()[pri:0, instance:testScenario_003.TC_10@52aa2946]" name="sliderAndEMITallyCheck" duration-ms="4030" started-at="2020-06-24T00:30:42 IST" finished-at="2020-06-24T00:30:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sliderAndEMITallyCheck -->
+      </class> <!-- testScenario_003.TC_10 -->
+      <class name="testScenario_002.TC_05">
+        <test-method status="PASS" signature="validHomeLoanAmount()[pri:0, instance:testScenario_002.TC_05@6328d34a]" name="validHomeLoanAmount" duration-ms="5123" started-at="2020-06-24T00:29:31 IST" finished-at="2020-06-24T00:29:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validHomeLoanAmount -->
+      </class> <!-- testScenario_002.TC_05 -->
+      <class name="testScenario_002.TC_04">
+        <test-method status="PASS" signature="validLoanInsurance()[pri:0, instance:testScenario_002.TC_04@2357d90a]" name="validLoanInsurance" duration-ms="3668" started-at="2020-06-24T00:29:28 IST" finished-at="2020-06-24T00:29:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoanInsurance -->
+      </class> <!-- testScenario_002.TC_04 -->
+      <class name="testScenario_002.TC_03">
+        <test-method status="PASS" signature="validDownPaymentTextBoxTest()[pri:0, instance:testScenario_002.TC_03@7f9fcf7f]" name="validDownPaymentTextBoxTest" duration-ms="2990" started-at="2020-06-24T00:29:25 IST" finished-at="2020-06-24T00:29:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDownPaymentTextBoxTest -->
+      </class> <!-- testScenario_002.TC_03 -->
+      <class name="testScenario_002.TC_02">
+        <test-method status="PASS" signature="validHomeValueAmountTest()[pri:0, instance:testScenario_002.TC_02@44a664f2]" name="validHomeValueAmountTest" duration-ms="3324" started-at="2020-06-24T00:29:21 IST" finished-at="2020-06-24T00:29:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validHomeValueAmountTest -->
+      </class> <!-- testScenario_002.TC_02 -->
+      <class name="testScenario_003.TC_09">
+        <test-method status="PASS" signature="LAEMIAndSliderTallyCheck()[pri:0, instance:testScenario_003.TC_09@75f9eccc]" name="LAEMIAndSliderTallyCheck" duration-ms="2090" started-at="2020-06-24T00:30:40 IST" finished-at="2020-06-24T00:30:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LAEMIAndSliderTallyCheck -->
+      </class> <!-- testScenario_003.TC_09 -->
+      <class name="testScenario_003.TC_08">
+        <test-method status="PASS" signature="sliderAndLoanFeesTallyCheck()[pri:0, instance:testScenario_003.TC_08@525f1e4e]" name="sliderAndLoanFeesTallyCheck" duration-ms="2358" started-at="2020-06-24T00:30:38 IST" finished-at="2020-06-24T00:30:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sliderAndLoanFeesTallyCheck -->
+      </class> <!-- testScenario_003.TC_08 -->
+      <class name="testScenario_002.TC_11">
+        <test-method status="PASS" signature="invalidHomeLoanInsuranceAmount()[pri:0, instance:testScenario_002.TC_11@2ea6137]" name="invalidHomeLoanInsuranceAmount" duration-ms="4285" started-at="2020-06-24T00:29:57 IST" finished-at="2020-06-24T00:30:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidHomeLoanInsuranceAmount -->
+      </class> <!-- testScenario_002.TC_11 -->
+      <class name="testScenario_003.TC_05">
+        <test-method status="PASS" signature="LoanTermAndSliderTallyCheck()[pri:0, instance:testScenario_003.TC_05@64c87930]" name="LoanTermAndSliderTallyCheck" duration-ms="2212" started-at="2020-06-24T00:30:31 IST" finished-at="2020-06-24T00:30:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanTermAndSliderTallyCheck -->
+      </class> <!-- testScenario_003.TC_05 -->
+      <class name="testScenario_003.TC_04">
+        <test-method status="PASS" signature="SliderAndLoanInterestTallyCheck()[pri:0, instance:testScenario_003.TC_04@55040f2f]" name="SliderAndLoanInterestTallyCheck" duration-ms="2425" started-at="2020-06-24T00:30:29 IST" finished-at="2020-06-24T00:30:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SliderAndLoanInterestTallyCheck -->
+      </class> <!-- testScenario_003.TC_04 -->
+      <class name="testScenario_002.TC_10">
+        <test-method status="PASS" signature="invalidDownpayment()[pri:0, instance:testScenario_002.TC_10@4c40b76e]" name="invalidDownpayment" duration-ms="3470" started-at="2020-06-24T00:29:53 IST" finished-at="2020-06-24T00:29:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDownpayment -->
+      </class> <!-- testScenario_002.TC_10 -->
+      <class name="testScenario_003.TC_07">
+        <test-method status="PASS" signature="LoanFeesAndSliderTallyCheck()[pri:0, instance:testScenario_003.TC_07@275710fc]" name="LoanFeesAndSliderTallyCheck" duration-ms="2534" started-at="2020-06-24T00:30:35 IST" finished-at="2020-06-24T00:30:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanFeesAndSliderTallyCheck -->
+      </class> <!-- testScenario_003.TC_07 -->
+      <class name="testScenario_003.TC_06">
+        <test-method status="PASS" signature="sliderAndLoanTermTallyCheck()[pri:0, instance:testScenario_003.TC_06@400cff1a]" name="sliderAndLoanTermTallyCheck" duration-ms="1698" started-at="2020-06-24T00:30:33 IST" finished-at="2020-06-24T00:30:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sliderAndLoanTermTallyCheck -->
+      </class> <!-- testScenario_003.TC_06 -->
+      <class name="testScenario_003.TC_23">
+        <test-method status="PASS" signature="LTLoanFeesAndSliderTallyCheck()[pri:0, instance:testScenario_003.TC_23@534df152]" name="LTLoanFeesAndSliderTallyCheck" duration-ms="2174" started-at="2020-06-24T00:31:17 IST" finished-at="2020-06-24T00:31:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LTLoanFeesAndSliderTallyCheck -->
+      </class> <!-- testScenario_003.TC_23 -->
+      <class name="testScenario_003.TC_01">
+        <test-method status="PASS" signature="LoanAmountAndSliderTallyCheck()[pri:0, instance:testScenario_003.TC_01@36f0f1be]" name="LoanAmountAndSliderTallyCheck" duration-ms="2186" started-at="2020-06-24T00:30:19 IST" finished-at="2020-06-24T00:30:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanAmountAndSliderTallyCheck -->
+      </class> <!-- testScenario_003.TC_01 -->
+      <class name="testScenario_003.TC_22">
+        <test-method status="PASS" signature="LTSliderAndLoanInterestTallyCheck()[pri:0, instance:testScenario_003.TC_22@4c6e276e]" name="LTSliderAndLoanInterestTallyCheck" duration-ms="2780" started-at="2020-06-24T00:31:14 IST" finished-at="2020-06-24T00:31:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LTSliderAndLoanInterestTallyCheck -->
+      </class> <!-- testScenario_003.TC_22 -->
+      <class name="testScenario_003.TC_03">
+        <test-method status="PASS" signature="LoanInterestAndSliderTallyCheck()[pri:0, instance:testScenario_003.TC_03@6ee12bac]" name="LoanInterestAndSliderTallyCheck" duration-ms="1841" started-at="2020-06-24T00:30:27 IST" finished-at="2020-06-24T00:30:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanInterestAndSliderTallyCheck -->
+      </class> <!-- testScenario_003.TC_03 -->
+      <class name="testScenario_003.TC_24">
+        <test-method status="PASS" signature="LTsliderAndLoanFeesTallyCheck()[pri:0, instance:testScenario_003.TC_24@52e677af]" name="LTsliderAndLoanFeesTallyCheck" duration-ms="3220" started-at="2020-06-24T00:31:19 IST" finished-at="2020-06-24T00:31:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LTsliderAndLoanFeesTallyCheck -->
+      </class> <!-- testScenario_003.TC_24 -->
+      <class name="testScenario_003.TC_02">
+        <test-method status="PASS" signature="sliderAndLoanAmountTallyCheck()[pri:0, instance:testScenario_003.TC_02@157632c9]" name="sliderAndLoanAmountTallyCheck" duration-ms="5369" started-at="2020-06-24T00:30:22 IST" finished-at="2020-06-24T00:30:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sliderAndLoanAmountTallyCheck -->
+      </class> <!-- testScenario_003.TC_02 -->
+      <class name="testScenario_001.TC_03">
+        <test-method status="PASS" signature="validDataCarInterestBoxTest()[pri:0, instance:testScenario_001.TC_03@61009542]" name="validDataCarInterestBoxTest" duration-ms="5791" started-at="2020-06-24T00:28:58 IST" finished-at="2020-06-24T00:29:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDataCarInterestBoxTest -->
+      </class> <!-- testScenario_001.TC_03 -->
+      <class name="testScenario_001.TC_02">
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:testScenario_001.TC_02@4d826d77]" name="getDriver" is-config="true" duration-ms="5854" started-at="2020-06-24T00:28:45 IST" finished-at="2020-06-24T00:28:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="validDataCarLoanBoxTest()[pri:0, instance:testScenario_001.TC_02@4d826d77]" name="validDataCarLoanBoxTest" duration-ms="6806" started-at="2020-06-24T00:28:51 IST" finished-at="2020-06-24T00:28:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDataCarLoanBoxTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScenario_001.TC_02@4d826d77]" name="closeBrowser" is-config="true" duration-ms="1265" started-at="2020-06-24T00:31:23 IST" finished-at="2020-06-24T00:31:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScenario_001.TC_02 -->
+      <class name="testScenario_003.TC_21">
+        <test-method status="PASS" signature="LTLoanInterestAndSliderTallyCheck()[pri:0, instance:testScenario_003.TC_21@45f45fa1]" name="LTLoanInterestAndSliderTallyCheck" duration-ms="2125" started-at="2020-06-24T00:31:12 IST" finished-at="2020-06-24T00:31:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LTLoanInterestAndSliderTallyCheck -->
+      </class> <!-- testScenario_003.TC_21 -->
+      <class name="testScenario_001.TC_05">
+        <test-method status="PASS" signature="invalidDataCarLoanBoxTest()[pri:0, instance:testScenario_001.TC_05@448ff1a8]" name="invalidDataCarLoanBoxTest" duration-ms="7288" started-at="2020-06-24T00:29:10 IST" finished-at="2020-06-24T00:29:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDataCarLoanBoxTest -->
+      </class> <!-- testScenario_001.TC_05 -->
+      <class name="testScenario_003.TC_20">
+        <test-method status="PASS" signature="LTsliderAndEMITallyCheck()[pri:0, instance:testScenario_003.TC_20@589b3632]" name="LTsliderAndEMITallyCheck" duration-ms="2511" started-at="2020-06-24T00:31:10 IST" finished-at="2020-06-24T00:31:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LTsliderAndEMITallyCheck -->
+      </class> <!-- testScenario_003.TC_20 -->
+      <class name="testScenario_001.TC_04">
+        <test-method status="PASS" signature="validDataCarLoanTenureBoxTest()[pri:0, instance:testScenario_001.TC_04@77e9807f]" name="validDataCarLoanTenureBoxTest" duration-ms="5963" started-at="2020-06-24T00:29:04 IST" finished-at="2020-06-24T00:29:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDataCarLoanTenureBoxTest -->
+      </class> <!-- testScenario_001.TC_04 -->
+      <class name="testScenario_002.TC_15">
+        <test-method status="PASS" signature="validDataHomeLoanTest()[pri:0, instance:testScenario_002.TC_15@667a738]" name="validDataHomeLoanTest" duration-ms="6261" started-at="2020-06-24T00:30:13 IST" finished-at="2020-06-24T00:30:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDataHomeLoanTest -->
+      </class> <!-- testScenario_002.TC_15 -->
+      <class name="testScenario_001.TC_07">
+        <test-method status="PASS" signature="invalidDataCarLoanTenureBoxTest()[pri:0, instance:testScenario_001.TC_07@7f77e91b]" name="invalidDataCarLoanTenureBoxTest" duration-ms="2157" started-at="2020-06-24T00:29:19 IST" finished-at="2020-06-24T00:29:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDataCarLoanTenureBoxTest -->
+      </class> <!-- testScenario_001.TC_07 -->
+      <class name="testScenario_002.TC_14">
+        <test-method status="PASS" signature="invalidLoanFees()[pri:0, instance:testScenario_002.TC_14@57d5872c]" name="invalidLoanFees" duration-ms="4016" started-at="2020-06-24T00:30:09 IST" finished-at="2020-06-24T00:30:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoanFees -->
+      </class> <!-- testScenario_002.TC_14 -->
+      <class name="testScenario_001.TC_06">
+        <test-method status="PASS" signature="invalidDataCarInterestBoxTest()[pri:0, instance:testScenario_001.TC_06@1a38c59b]" name="invalidDataCarInterestBoxTest" duration-ms="2225" started-at="2020-06-24T00:29:17 IST" finished-at="2020-06-24T00:29:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDataCarInterestBoxTest -->
+      </class> <!-- testScenario_001.TC_06 -->
+      <class name="testScenario_002.TC_13">
+        <test-method status="PASS" signature="invalidHomeLoanTerm()[pri:0, instance:testScenario_002.TC_13@1e67a849]" name="invalidHomeLoanTerm" duration-ms="3886" started-at="2020-06-24T00:30:05 IST" finished-at="2020-06-24T00:30:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidHomeLoanTerm -->
+      </class> <!-- testScenario_002.TC_13 -->
+      <class name="testScenario_002.TC_12">
+        <test-method status="PASS" signature="invalidHomeLoanInterest()[pri:0, instance:testScenario_002.TC_12@41ee392b]" name="invalidHomeLoanInterest" duration-ms="3960" started-at="2020-06-24T00:30:01 IST" finished-at="2020-06-24T00:30:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidHomeLoanInterest -->
+      </class> <!-- testScenario_002.TC_12 -->
+      <class name="testScenario_002.TC_09">
+        <test-method status="PASS" signature="invalidHomePrice()[pri:0, instance:testScenario_002.TC_09@2d2e5f00]" name="invalidHomePrice" duration-ms="2998" started-at="2020-06-24T00:29:50 IST" finished-at="2020-06-24T00:29:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidHomePrice -->
+      </class> <!-- testScenario_002.TC_09 -->
+      <class name="testScenario_003.TC_19">
+        <test-method status="PASS" signature="LTEMIAndSliderTallyCheck()[pri:0, instance:testScenario_003.TC_19@ca263c2]" name="LTEMIAndSliderTallyCheck" duration-ms="1966" started-at="2020-06-24T00:31:08 IST" finished-at="2020-06-24T00:31:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LTEMIAndSliderTallyCheck -->
+      </class> <!-- testScenario_003.TC_19 -->
+    </test> <!-- EMI Calculator Test -->
+  </suite> <!-- emiCalculator-1 -->
+</testng-results>

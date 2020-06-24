@@ -1,0 +1,1459 @@
+<html>
+<head>
+<title>TestNG:  Test2</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test2</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/48</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 22 03:53:46 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (121 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testScenario_001.TC_01.getDriver()'><b>getDriver</b><br>Test class: testScenario_001.TC_01</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1699679644", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1699679644'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>-1592778226</td>
+<td>testScenario_001.TC_01@23282c25</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testScenario_003.TC_001.EMICalculatorPageTest()'><b>EMICalculatorPageTest</b><br>Test class: testScenario_003.TC_001</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1382397406", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1382397406'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_003.TC_001@5ad851c9</td></tr>
+<tr>
+<td title='testScenario_003.TC_09.LAEMIAndSliderTallyCheck()'><b>LAEMIAndSliderTallyCheck</b><br>Test class: testScenario_003.TC_09</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace226409393", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace226409393'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_003.TC_09@6107227e</td></tr>
+<tr>
+<td title='testScenario_003.TC_15.LALoanFeesAndSliderTallyCheck()'><b>LALoanFeesAndSliderTallyCheck</b><br>Test class: testScenario_003.TC_15</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace206993586", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace206993586'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_003.TC_15@60611244</td></tr>
+<tr>
+<td title='testScenario_003.TC_11.LALoanInterestAndSliderTallyCheck()'><b>LALoanInterestAndSliderTallyCheck</b><br>Test class: testScenario_003.TC_11</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2009607710", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2009607710'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_003.TC_11@15761df8</td></tr>
+<tr>
+<td title='testScenario_003.TC_13.LALoanTermAndSliderTallyCheck()'><b>LALoanTermAndSliderTallyCheck</b><br>Test class: testScenario_003.TC_13</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace179854488", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace179854488'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_003.TC_13@327b636c</td></tr>
+<tr>
+<td title='testScenario_003.TC_12.LASliderAndLoanInterestTallyCheck()'><b>LASliderAndLoanInterestTallyCheck</b><br>Test class: testScenario_003.TC_12</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace776769318", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace776769318'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_003.TC_12@6ab7a896</td></tr>
+<tr>
+<td title='testScenario_003.TC_16.LAsliderAndLoanFeesTallyCheck()'><b>LAsliderAndLoanFeesTallyCheck</b><br>Test class: testScenario_003.TC_16</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace986215103", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace986215103'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_003.TC_16@3745e5c6</td></tr>
+<tr>
+<td title='testScenario_003.TC_14.LAsliderAndLoanTermTallyCheck()'><b>LAsliderAndLoanTermTallyCheck</b><br>Test class: testScenario_003.TC_14</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1226259487", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1226259487'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_003.TC_14@45dd4eda</td></tr>
+<tr>
+<td title='testScenario_003.TC_19.LTEMIAndSliderTallyCheck()'><b>LTEMIAndSliderTallyCheck</b><br>Test class: testScenario_003.TC_19</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1101892419", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1101892419'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_003.TC_19@19d37183</td></tr>
+<tr>
+<td title='testScenario_003.TC_17.LTLoanAmountAndSliderTallyCheck()'><b>LTLoanAmountAndSliderTallyCheck</b><br>Test class: testScenario_003.TC_17</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1417052329", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1417052329'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_003.TC_17@5e4c8041</td></tr>
+<tr>
+<td title='testScenario_003.TC_23.LTLoanFeesAndSliderTallyCheck()'><b>LTLoanFeesAndSliderTallyCheck</b><br>Test class: testScenario_003.TC_23</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace824935601", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace824935601'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_003.TC_23@d83da2e</td></tr>
+<tr>
+<td title='testScenario_003.TC_21.LTLoanInterestAndSliderTallyCheck()'><b>LTLoanInterestAndSliderTallyCheck</b><br>Test class: testScenario_003.TC_21</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1671377341", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1671377341'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_003.TC_21@3bd40a57</td></tr>
+<tr>
+<td title='testScenario_003.TC_22.LTSliderAndLoanInterestTallyCheck()'><b>LTSliderAndLoanInterestTallyCheck</b><br>Test class: testScenario_003.TC_22</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1340544908", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1340544908'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_003.TC_22@fdefd3f</td></tr>
+<tr>
+<td title='testScenario_003.TC_20.LTsliderAndEMITallyCheck()'><b>LTsliderAndEMITallyCheck</b><br>Test class: testScenario_003.TC_20</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace504057197", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace504057197'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_003.TC_20@1a0dcaa</td></tr>
+<tr>
+<td title='testScenario_003.TC_18.LTsliderAndLoanAmountTallyCheck()'><b>LTsliderAndLoanAmountTallyCheck</b><br>Test class: testScenario_003.TC_18</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace493649686", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace493649686'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_003.TC_18@71c8becc</td></tr>
+<tr>
+<td title='testScenario_003.TC_24.LTsliderAndLoanFeesTallyCheck()'><b>LTsliderAndLoanFeesTallyCheck</b><br>Test class: testScenario_003.TC_24</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1472776188", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1472776188'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_003.TC_24@a4102b8</td></tr>
+<tr>
+<td title='testScenario_003.TC_01.LoanAmountAndSliderTallyCheck()'><b>LoanAmountAndSliderTallyCheck</b><br>Test class: testScenario_003.TC_01</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1702476960", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1702476960'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_003.TC_01@6156496</td></tr>
+<tr>
+<td title='testScenario_003.TC_07.LoanFeesAndSliderTallyCheck()'><b>LoanFeesAndSliderTallyCheck</b><br>Test class: testScenario_003.TC_07</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace812638200", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace812638200'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_003.TC_07@2b6856dd</td></tr>
+<tr>
+<td title='testScenario_003.TC_03.LoanInterestAndSliderTallyCheck()'><b>LoanInterestAndSliderTallyCheck</b><br>Test class: testScenario_003.TC_03</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace753694816", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace753694816'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_003.TC_03@b62fe6d</td></tr>
+<tr>
+<td title='testScenario_003.TC_05.LoanTermAndSliderTallyCheck()'><b>LoanTermAndSliderTallyCheck</b><br>Test class: testScenario_003.TC_05</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2121910725", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2121910725'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_003.TC_05@3e3047e6</td></tr>
+<tr>
+<td title='testScenario_003.TC_04.SliderAndLoanInterestTallyCheck()'><b>SliderAndLoanInterestTallyCheck</b><br>Test class: testScenario_003.TC_04</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2009102737", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2009102737'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_003.TC_04@13acb0d1</td></tr>
+<tr>
+<td title='testScenario_001.TC_01.carLoanPageTest()'><b>carLoanPageTest</b><br>Test class: testScenario_001.TC_01</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1910327481", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1910327481'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_001.TC_01@23282c25</td></tr>
+<tr>
+<td title='testScenario_002.TC_01.homeLoanPageTest()'><b>homeLoanPageTest</b><br>Test class: testScenario_002.TC_01</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1697036481", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1697036481'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_002.TC_01@3b938003</td></tr>
+<tr>
+<td title='testScenario_001.TC_06.invalidDataCarInterestBoxTest()'><b>invalidDataCarInterestBoxTest</b><br>Test class: testScenario_001.TC_06</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace84647061", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace84647061'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_001.TC_06@258e2e41</td></tr>
+<tr>
+<td title='testScenario_001.TC_05.invalidDataCarLoanBoxTest()'><b>invalidDataCarLoanBoxTest</b><br>Test class: testScenario_001.TC_05</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace71360036", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace71360036'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_001.TC_05@5906ebcb</td></tr>
+<tr>
+<td title='testScenario_001.TC_07.invalidDataCarLoanTenureBoxTest()'><b>invalidDataCarLoanTenureBoxTest</b><br>Test class: testScenario_001.TC_07</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1762339365", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1762339365'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_001.TC_07@3d299e3</td></tr>
+<tr>
+<td title='testScenario_002.TC_10.invalidDownpayment()'><b>invalidDownpayment</b><br>Test class: testScenario_002.TC_10</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace50135527", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace50135527'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_002.TC_10@436a4e4b</td></tr>
+<tr>
+<td title='testScenario_002.TC_11.invalidHomeLoanInsuranceAmount()'><b>invalidHomeLoanInsuranceAmount</b><br>Test class: testScenario_002.TC_11</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1330601007", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1330601007'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_002.TC_11@f2f2cc1</td></tr>
+<tr>
+<td title='testScenario_002.TC_12.invalidHomeLoanInterest()'><b>invalidHomeLoanInterest</b><br>Test class: testScenario_002.TC_12</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1522316747", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1522316747'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_002.TC_12@3a079870</td></tr>
+<tr>
+<td title='testScenario_002.TC_13.invalidHomeLoanTerm()'><b>invalidHomeLoanTerm</b><br>Test class: testScenario_002.TC_13</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1203739819", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1203739819'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_002.TC_13@3b2cf7ab</td></tr>
+<tr>
+<td title='testScenario_002.TC_09.invalidHomePrice()'><b>invalidHomePrice</b><br>Test class: testScenario_002.TC_09</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1469408445", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1469408445'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_002.TC_09@657c8ad9</td></tr>
+<tr>
+<td title='testScenario_002.TC_14.invalidLoanFees()'><b>invalidLoanFees</b><br>Test class: testScenario_002.TC_14</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1810199826", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1810199826'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_002.TC_14@2aa5fe93</td></tr>
+<tr>
+<td title='testScenario_003.TC_10.sliderAndEMITallyCheck()'><b>sliderAndEMITallyCheck</b><br>Test class: testScenario_003.TC_10</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1301338962", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1301338962'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_003.TC_10@7c417213</td></tr>
+<tr>
+<td title='testScenario_003.TC_02.sliderAndLoanAmountTallyCheck()'><b>sliderAndLoanAmountTallyCheck</b><br>Test class: testScenario_003.TC_02</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1208784056", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1208784056'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_003.TC_02@3c153a1</td></tr>
+<tr>
+<td title='testScenario_003.TC_08.sliderAndLoanFeesTallyCheck()'><b>sliderAndLoanFeesTallyCheck</b><br>Test class: testScenario_003.TC_08</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace63347594", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace63347594'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_003.TC_08@5db45159</td></tr>
+<tr>
+<td title='testScenario_003.TC_06.sliderAndLoanTermTallyCheck()'><b>sliderAndLoanTermTallyCheck</b><br>Test class: testScenario_003.TC_06</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2110497006", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2110497006'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_003.TC_06@37e547da</td></tr>
+<tr>
+<td title='testScenario_001.TC_03.validDataCarInterestBoxTest()'><b>validDataCarInterestBoxTest</b><br>Test class: testScenario_001.TC_03</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1093725311", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1093725311'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_001.TC_03@6b419da</td></tr>
+<tr>
+<td title='testScenario_001.TC_02.validDataCarLoanBoxTest()'><b>validDataCarLoanBoxTest</b><br>Test class: testScenario_001.TC_02</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1836708334", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1836708334'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_001.TC_02@7920ba90</td></tr>
+<tr>
+<td title='testScenario_001.TC_04.validDataCarLoanTenureBoxTest()'><b>validDataCarLoanTenureBoxTest</b><br>Test class: testScenario_001.TC_04</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace123450641", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace123450641'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_001.TC_04@3b2da18f</td></tr>
+<tr>
+<td title='testScenario_001.TC_08.validDataCarLoanTest()'><b>validDataCarLoanTest</b><br>Test class: testScenario_001.TC_08</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2107154908", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2107154908'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_001.TC_08@55a561cf</td></tr>
+<tr>
+<td title='testScenario_002.TC_15.validDataHomeLoanTest()'><b>validDataHomeLoanTest</b><br>Test class: testScenario_002.TC_15</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace45431543", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace45431543'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_002.TC_15@5c1a8622</td></tr>
+<tr>
+<td title='testScenario_002.TC_03.validDownPaymentTextBoxTest()'><b>validDownPaymentTextBoxTest</b><br>Test class: testScenario_002.TC_03</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1754945682", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1754945682'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_002.TC_03@78b1cc93</td></tr>
+<tr>
+<td title='testScenario_002.TC_05.validHomeLoanAmount()'><b>validHomeLoanAmount</b><br>Test class: testScenario_002.TC_05</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1957500631", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1957500631'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_002.TC_05@21507a04</td></tr>
+<tr>
+<td title='testScenario_002.TC_06.validHomeLoanInterest()'><b>validHomeLoanInterest</b><br>Test class: testScenario_002.TC_06</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace807622857", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace807622857'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_002.TC_06@143640d5</td></tr>
+<tr>
+<td title='testScenario_002.TC_07.validHomeLoanTerm()'><b>validHomeLoanTerm</b><br>Test class: testScenario_002.TC_07</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace774227853", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace774227853'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_002.TC_07@6295d394</td></tr>
+<tr>
+<td title='testScenario_002.TC_02.validHomeValueAmountTest()'><b>validHomeValueAmountTest</b><br>Test class: testScenario_002.TC_02</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace176554603", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace176554603'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_002.TC_02@6f3b5d16</td></tr>
+<tr>
+<td title='testScenario_002.TC_08.validLoanFees()'><b>validLoanFees</b><br>Test class: testScenario_002.TC_08</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1990862207", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1990862207'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_002.TC_08@475e586c</td></tr>
+<tr>
+<td title='testScenario_002.TC_04.validLoanInsurance()'><b>validLoanInsurance</b><br>Test class: testScenario_002.TC_04</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace645195731", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace645195731'><pre>org.testng.TestNGException: 
+Parameter &apos;browsers&apos; is required by BeforeSuite on method getDriver but has not been marked @Optional or defined
+in D:\851212\emiCalculator-1\Parallel_Execution.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:268)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScenario_002.TC_04@6646153</td></tr>
+</table><p>
+</body>
+</html>

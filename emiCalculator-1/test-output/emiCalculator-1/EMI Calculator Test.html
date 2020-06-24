@@ -1,0 +1,299 @@
+<html>
+<head>
+<title>TestNG:  EMI Calculator Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>EMI Calculator Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>44/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jun 24 00:28:51 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>151 seconds (151450 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testScenario_003.TC_09.LAEMIAndSliderTallyCheck()'><b>LAEMIAndSliderTallyCheck</b><br>Test class: testScenario_003.TC_09</td>
+<td></td>
+<td>2</td>
+<td>testScenario_003.TC_09@75f9eccc</td></tr>
+<tr>
+<td title='testScenario_003.TC_15.LALoanFeesAndSliderTallyCheck()'><b>LALoanFeesAndSliderTallyCheck</b><br>Test class: testScenario_003.TC_15</td>
+<td></td>
+<td>2</td>
+<td>testScenario_003.TC_15@3bbc39f8</td></tr>
+<tr>
+<td title='testScenario_003.TC_11.LALoanInterestAndSliderTallyCheck()'><b>LALoanInterestAndSliderTallyCheck</b><br>Test class: testScenario_003.TC_11</td>
+<td></td>
+<td>2</td>
+<td>testScenario_003.TC_11@4de5031f</td></tr>
+<tr>
+<td title='testScenario_003.TC_13.LALoanTermAndSliderTallyCheck()'><b>LALoanTermAndSliderTallyCheck</b><br>Test class: testScenario_003.TC_13</td>
+<td></td>
+<td>1</td>
+<td>testScenario_003.TC_13@5d47c63f</td></tr>
+<tr>
+<td title='testScenario_003.TC_12.LASliderAndLoanInterestTallyCheck()'><b>LASliderAndLoanInterestTallyCheck</b><br>Test class: testScenario_003.TC_12</td>
+<td></td>
+<td>1</td>
+<td>testScenario_003.TC_12@67e2d983</td></tr>
+<tr>
+<td title='testScenario_003.TC_16.LAsliderAndLoanFeesTallyCheck()'><b>LAsliderAndLoanFeesTallyCheck</b><br>Test class: testScenario_003.TC_16</td>
+<td></td>
+<td>2</td>
+<td>testScenario_003.TC_16@4ae3c1cd</td></tr>
+<tr>
+<td title='testScenario_003.TC_14.LAsliderAndLoanTermTallyCheck()'><b>LAsliderAndLoanTermTallyCheck</b><br>Test class: testScenario_003.TC_14</td>
+<td></td>
+<td>2</td>
+<td>testScenario_003.TC_14@5ea434c8</td></tr>
+<tr>
+<td title='testScenario_003.TC_19.LTEMIAndSliderTallyCheck()'><b>LTEMIAndSliderTallyCheck</b><br>Test class: testScenario_003.TC_19</td>
+<td></td>
+<td>1</td>
+<td>testScenario_003.TC_19@ca263c2</td></tr>
+<tr>
+<td title='testScenario_003.TC_17.LTLoanAmountAndSliderTallyCheck()'><b>LTLoanAmountAndSliderTallyCheck</b><br>Test class: testScenario_003.TC_17</td>
+<td></td>
+<td>2</td>
+<td>testScenario_003.TC_17@29f69090</td></tr>
+<tr>
+<td title='testScenario_003.TC_23.LTLoanFeesAndSliderTallyCheck()'><b>LTLoanFeesAndSliderTallyCheck</b><br>Test class: testScenario_003.TC_23</td>
+<td></td>
+<td>2</td>
+<td>testScenario_003.TC_23@534df152</td></tr>
+<tr>
+<td title='testScenario_003.TC_21.LTLoanInterestAndSliderTallyCheck()'><b>LTLoanInterestAndSliderTallyCheck</b><br>Test class: testScenario_003.TC_21</td>
+<td></td>
+<td>2</td>
+<td>testScenario_003.TC_21@45f45fa1</td></tr>
+<tr>
+<td title='testScenario_003.TC_22.LTSliderAndLoanInterestTallyCheck()'><b>LTSliderAndLoanInterestTallyCheck</b><br>Test class: testScenario_003.TC_22</td>
+<td></td>
+<td>2</td>
+<td>testScenario_003.TC_22@4c6e276e</td></tr>
+<tr>
+<td title='testScenario_003.TC_20.LTsliderAndEMITallyCheck()'><b>LTsliderAndEMITallyCheck</b><br>Test class: testScenario_003.TC_20</td>
+<td></td>
+<td>2</td>
+<td>testScenario_003.TC_20@589b3632</td></tr>
+<tr>
+<td title='testScenario_003.TC_18.LTsliderAndLoanAmountTallyCheck()'><b>LTsliderAndLoanAmountTallyCheck</b><br>Test class: testScenario_003.TC_18</td>
+<td></td>
+<td>5</td>
+<td>testScenario_003.TC_18@568bf312</td></tr>
+<tr>
+<td title='testScenario_003.TC_24.LTsliderAndLoanFeesTallyCheck()'><b>LTsliderAndLoanFeesTallyCheck</b><br>Test class: testScenario_003.TC_24</td>
+<td></td>
+<td>3</td>
+<td>testScenario_003.TC_24@52e677af</td></tr>
+<tr>
+<td title='testScenario_003.TC_01.LoanAmountAndSliderTallyCheck()'><b>LoanAmountAndSliderTallyCheck</b><br>Test class: testScenario_003.TC_01</td>
+<td></td>
+<td>2</td>
+<td>testScenario_003.TC_01@36f0f1be</td></tr>
+<tr>
+<td title='testScenario_003.TC_07.LoanFeesAndSliderTallyCheck()'><b>LoanFeesAndSliderTallyCheck</b><br>Test class: testScenario_003.TC_07</td>
+<td></td>
+<td>2</td>
+<td>testScenario_003.TC_07@275710fc</td></tr>
+<tr>
+<td title='testScenario_003.TC_03.LoanInterestAndSliderTallyCheck()'><b>LoanInterestAndSliderTallyCheck</b><br>Test class: testScenario_003.TC_03</td>
+<td></td>
+<td>1</td>
+<td>testScenario_003.TC_03@6ee12bac</td></tr>
+<tr>
+<td title='testScenario_003.TC_05.LoanTermAndSliderTallyCheck()'><b>LoanTermAndSliderTallyCheck</b><br>Test class: testScenario_003.TC_05</td>
+<td></td>
+<td>2</td>
+<td>testScenario_003.TC_05@64c87930</td></tr>
+<tr>
+<td title='testScenario_003.TC_04.SliderAndLoanInterestTallyCheck()'><b>SliderAndLoanInterestTallyCheck</b><br>Test class: testScenario_003.TC_04</td>
+<td></td>
+<td>2</td>
+<td>testScenario_003.TC_04@55040f2f</td></tr>
+<tr>
+<td title='testScenario_001.TC_06.invalidDataCarInterestBoxTest()'><b>invalidDataCarInterestBoxTest</b><br>Test class: testScenario_001.TC_06</td>
+<td></td>
+<td>2</td>
+<td>testScenario_001.TC_06@1a38c59b</td></tr>
+<tr>
+<td title='testScenario_001.TC_05.invalidDataCarLoanBoxTest()'><b>invalidDataCarLoanBoxTest</b><br>Test class: testScenario_001.TC_05</td>
+<td></td>
+<td>7</td>
+<td>testScenario_001.TC_05@448ff1a8</td></tr>
+<tr>
+<td title='testScenario_001.TC_07.invalidDataCarLoanTenureBoxTest()'><b>invalidDataCarLoanTenureBoxTest</b><br>Test class: testScenario_001.TC_07</td>
+<td></td>
+<td>2</td>
+<td>testScenario_001.TC_07@7f77e91b</td></tr>
+<tr>
+<td title='testScenario_002.TC_10.invalidDownpayment()'><b>invalidDownpayment</b><br>Test class: testScenario_002.TC_10</td>
+<td></td>
+<td>3</td>
+<td>testScenario_002.TC_10@4c40b76e</td></tr>
+<tr>
+<td title='testScenario_002.TC_11.invalidHomeLoanInsuranceAmount()'><b>invalidHomeLoanInsuranceAmount</b><br>Test class: testScenario_002.TC_11</td>
+<td></td>
+<td>4</td>
+<td>testScenario_002.TC_11@2ea6137</td></tr>
+<tr>
+<td title='testScenario_002.TC_12.invalidHomeLoanInterest()'><b>invalidHomeLoanInterest</b><br>Test class: testScenario_002.TC_12</td>
+<td></td>
+<td>3</td>
+<td>testScenario_002.TC_12@41ee392b</td></tr>
+<tr>
+<td title='testScenario_002.TC_13.invalidHomeLoanTerm()'><b>invalidHomeLoanTerm</b><br>Test class: testScenario_002.TC_13</td>
+<td></td>
+<td>3</td>
+<td>testScenario_002.TC_13@1e67a849</td></tr>
+<tr>
+<td title='testScenario_002.TC_09.invalidHomePrice()'><b>invalidHomePrice</b><br>Test class: testScenario_002.TC_09</td>
+<td></td>
+<td>2</td>
+<td>testScenario_002.TC_09@2d2e5f00</td></tr>
+<tr>
+<td title='testScenario_002.TC_14.invalidLoanFees()'><b>invalidLoanFees</b><br>Test class: testScenario_002.TC_14</td>
+<td></td>
+<td>4</td>
+<td>testScenario_002.TC_14@57d5872c</td></tr>
+<tr>
+<td title='testScenario_003.TC_10.sliderAndEMITallyCheck()'><b>sliderAndEMITallyCheck</b><br>Test class: testScenario_003.TC_10</td>
+<td></td>
+<td>4</td>
+<td>testScenario_003.TC_10@52aa2946</td></tr>
+<tr>
+<td title='testScenario_003.TC_02.sliderAndLoanAmountTallyCheck()'><b>sliderAndLoanAmountTallyCheck</b><br>Test class: testScenario_003.TC_02</td>
+<td></td>
+<td>5</td>
+<td>testScenario_003.TC_02@157632c9</td></tr>
+<tr>
+<td title='testScenario_003.TC_08.sliderAndLoanFeesTallyCheck()'><b>sliderAndLoanFeesTallyCheck</b><br>Test class: testScenario_003.TC_08</td>
+<td></td>
+<td>2</td>
+<td>testScenario_003.TC_08@525f1e4e</td></tr>
+<tr>
+<td title='testScenario_003.TC_06.sliderAndLoanTermTallyCheck()'><b>sliderAndLoanTermTallyCheck</b><br>Test class: testScenario_003.TC_06</td>
+<td></td>
+<td>1</td>
+<td>testScenario_003.TC_06@400cff1a</td></tr>
+<tr>
+<td title='testScenario_001.TC_03.validDataCarInterestBoxTest()'><b>validDataCarInterestBoxTest</b><br>Test class: testScenario_001.TC_03</td>
+<td></td>
+<td>5</td>
+<td>testScenario_001.TC_03@61009542</td></tr>
+<tr>
+<td title='testScenario_001.TC_02.validDataCarLoanBoxTest()'><b>validDataCarLoanBoxTest</b><br>Test class: testScenario_001.TC_02</td>
+<td></td>
+<td>6</td>
+<td>testScenario_001.TC_02@4d826d77</td></tr>
+<tr>
+<td title='testScenario_001.TC_04.validDataCarLoanTenureBoxTest()'><b>validDataCarLoanTenureBoxTest</b><br>Test class: testScenario_001.TC_04</td>
+<td></td>
+<td>5</td>
+<td>testScenario_001.TC_04@77e9807f</td></tr>
+<tr>
+<td title='testScenario_002.TC_15.validDataHomeLoanTest()'><b>validDataHomeLoanTest</b><br>Test class: testScenario_002.TC_15</td>
+<td></td>
+<td>6</td>
+<td>testScenario_002.TC_15@667a738</td></tr>
+<tr>
+<td title='testScenario_002.TC_03.validDownPaymentTextBoxTest()'><b>validDownPaymentTextBoxTest</b><br>Test class: testScenario_002.TC_03</td>
+<td></td>
+<td>2</td>
+<td>testScenario_002.TC_03@7f9fcf7f</td></tr>
+<tr>
+<td title='testScenario_002.TC_05.validHomeLoanAmount()'><b>validHomeLoanAmount</b><br>Test class: testScenario_002.TC_05</td>
+<td></td>
+<td>5</td>
+<td>testScenario_002.TC_05@6328d34a</td></tr>
+<tr>
+<td title='testScenario_002.TC_06.validHomeLoanInterest()'><b>validHomeLoanInterest</b><br>Test class: testScenario_002.TC_06</td>
+<td></td>
+<td>4</td>
+<td>testScenario_002.TC_06@145eaa29</td></tr>
+<tr>
+<td title='testScenario_002.TC_07.validHomeLoanTerm()'><b>validHomeLoanTerm</b><br>Test class: testScenario_002.TC_07</td>
+<td></td>
+<td>4</td>
+<td>testScenario_002.TC_07@15bb6bea</td></tr>
+<tr>
+<td title='testScenario_002.TC_02.validHomeValueAmountTest()'><b>validHomeValueAmountTest</b><br>Test class: testScenario_002.TC_02</td>
+<td></td>
+<td>3</td>
+<td>testScenario_002.TC_02@44a664f2</td></tr>
+<tr>
+<td title='testScenario_002.TC_08.validLoanFees()'><b>validLoanFees</b><br>Test class: testScenario_002.TC_08</td>
+<td></td>
+<td>4</td>
+<td>testScenario_002.TC_08@8b96fde</td></tr>
+<tr>
+<td title='testScenario_002.TC_04.validLoanInsurance()'><b>validLoanInsurance</b><br>Test class: testScenario_002.TC_04</td>
+<td></td>
+<td>3</td>
+<td>testScenario_002.TC_04@2357d90a</td></tr>
+</table><p>
+</body>
+</html>

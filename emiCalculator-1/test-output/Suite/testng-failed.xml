@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="testScenario_001.TC_08">
+        <methods>
+          <include name="validDataCarLoanTest"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_001.TC_08 -->
+      <class name="testScenario_003.TC_01">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="LoanAmountAndSliderTallyCheck"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_01 -->
+      <class name="testScenario_001.TC_06">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="invalidDataCarInterestBoxTest"/>
+        </methods>
+      </class> <!-- testScenario_001.TC_06 -->
+      <class name="testScenario_003.TC_07">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="LoanFeesAndSliderTallyCheck"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_07 -->
+      <class name="testScenario_003.TC_24">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="LTsliderAndLoanFeesTallyCheck"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_24 -->
+      <class name="testScenario_003.TC_23">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="LTLoanFeesAndSliderTallyCheck"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_23 -->
+      <class name="testScenario_002.TC_12">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="invalidHomeLoanInterest"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_12 -->
+      <class name="testScenario_003.TC_21">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="LTLoanInterestAndSliderTallyCheck"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_21 -->
+      <class name="testScenario_001.TC_03">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="validDataCarInterestBoxTest"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_001.TC_03 -->
+      <class name="testScenario_003.TC_19">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="LTEMIAndSliderTallyCheck"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_19 -->
+      <class name="testScenario_002.TC_05">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="validHomeLoanAmount"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_05 -->
+      <class name="testScenario_003.TC_15">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="LALoanFeesAndSliderTallyCheck"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_15 -->
+      <class name="testScenario_002.TC_02">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="validHomeValueAmountTest"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_02 -->
+      <class name="testScenario_002.TC_03">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="validDownPaymentTextBoxTest"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_03 -->
+      <class name="testScenario_003.TC_12">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="LASliderAndLoanInterestTallyCheck"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_12 -->
+      <class name="testScenario_003.TC_03">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="LoanInterestAndSliderTallyCheck"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_03 -->
+      <class name="testScenario_002.TC_14">
+        <methods>
+          <include name="invalidLoanFees"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_14 -->
+      <class name="testScenario_002.TC_15">
+        <methods>
+          <include name="validDataHomeLoanTest"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_15 -->
+      <class name="testScenario_003.TC_001">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="EMICalculatorPageTest"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_001 -->
+      <class name="testScenario_003.TC_09">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="LAEMIAndSliderTallyCheck"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_09 -->
+      <class name="testScenario_003.TC_16">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="LAsliderAndLoanFeesTallyCheck"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_16 -->
+      <class name="testScenario_003.TC_20">
+        <methods>
+          <include name="LTsliderAndEMITallyCheck"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_20 -->
+      <class name="testScenario_002.TC_07">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="validHomeLoanTerm"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_07 -->
+      <class name="testScenario_002.TC_09">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="invalidHomePrice"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_09 -->
+      <class name="testScenario_003.TC_17">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="LTLoanAmountAndSliderTallyCheck"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_17 -->
+      <class name="testScenario_002.TC_01">
+        <methods>
+          <include name="homeLoanPageTest"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_01 -->
+      <class name="testScenario_001.TC_07">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="invalidDataCarLoanTenureBoxTest"/>
+        </methods>
+      </class> <!-- testScenario_001.TC_07 -->
+      <class name="testScenario_003.TC_14">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="LAsliderAndLoanTermTallyCheck"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_14 -->
+      <class name="testScenario_003.TC_04">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="SliderAndLoanInterestTallyCheck"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_04 -->
+      <class name="testScenario_001.TC_05">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="invalidDataCarLoanBoxTest"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_001.TC_05 -->
+      <class name="testScenario_003.TC_13">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="LALoanTermAndSliderTallyCheck"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_13 -->
+      <class name="testScenario_003.TC_02">
+        <methods>
+          <include name="sliderAndLoanAmountTallyCheck"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_02 -->
+      <class name="testScenario_002.TC_11">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="invalidHomeLoanInsuranceAmount"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_11 -->
+      <class name="testScenario_002.TC_06">
+        <methods>
+          <include name="validHomeLoanInterest"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_06 -->
+      <class name="testScenario_002.TC_13">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="invalidHomeLoanTerm"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_13 -->
+      <class name="testScenario_001.TC_01">
+        <methods>
+          <include name="carLoanPageTest"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_001.TC_01 -->
+      <class name="testScenario_003.TC_18">
+        <methods>
+          <include name="LTsliderAndLoanAmountTallyCheck"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_18 -->
+      <class name="testScenario_001.TC_04">
+        <methods>
+          <include name="validDataCarLoanTenureBoxTest"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_001.TC_04 -->
+      <class name="testScenario_003.TC_11">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="LALoanInterestAndSliderTallyCheck"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_11 -->
+      <class name="testScenario_001.TC_02">
+        <methods>
+          <include name="validDataCarLoanBoxTest"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_001.TC_02 -->
+      <class name="testScenario_002.TC_08">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="validLoanFees"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_08 -->
+      <class name="testScenario_002.TC_10">
+        <methods>
+          <include name="invalidDownpayment"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_10 -->
+      <class name="testScenario_003.TC_05">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="LoanTermAndSliderTallyCheck"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_05 -->
+      <class name="testScenario_003.TC_22">
+        <methods>
+          <include name="LTSliderAndLoanInterestTallyCheck"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_22 -->
+      <class name="testScenario_003.TC_06">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="sliderAndLoanTermTallyCheck"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_06 -->
+      <class name="testScenario_003.TC_10">
+        <methods>
+          <include name="sliderAndEMITallyCheck"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_10 -->
+      <class name="testScenario_002.TC_04">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="validLoanInsurance"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_04 -->
+      <class name="testScenario_003.TC_08">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="sliderAndLoanFeesTallyCheck"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_08 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Test2(failed)" parallel="tests">
+    <classes>
+      <class name="testScenario_001.TC_08">
+        <methods>
+          <include name="validDataCarLoanTest"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_001.TC_08 -->
+      <class name="testScenario_003.TC_01">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="LoanAmountAndSliderTallyCheck"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_01 -->
+      <class name="testScenario_001.TC_06">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="invalidDataCarInterestBoxTest"/>
+        </methods>
+      </class> <!-- testScenario_001.TC_06 -->
+      <class name="testScenario_003.TC_07">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="LoanFeesAndSliderTallyCheck"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_07 -->
+      <class name="testScenario_003.TC_24">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="LTsliderAndLoanFeesTallyCheck"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_24 -->
+      <class name="testScenario_003.TC_23">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="LTLoanFeesAndSliderTallyCheck"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_23 -->
+      <class name="testScenario_002.TC_12">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="invalidHomeLoanInterest"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_12 -->
+      <class name="testScenario_003.TC_21">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="LTLoanInterestAndSliderTallyCheck"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_21 -->
+      <class name="testScenario_001.TC_03">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="validDataCarInterestBoxTest"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_001.TC_03 -->
+      <class name="testScenario_003.TC_19">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="LTEMIAndSliderTallyCheck"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_19 -->
+      <class name="testScenario_002.TC_05">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="validHomeLoanAmount"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_05 -->
+      <class name="testScenario_003.TC_15">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="LALoanFeesAndSliderTallyCheck"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_15 -->
+      <class name="testScenario_002.TC_02">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="validHomeValueAmountTest"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_02 -->
+      <class name="testScenario_002.TC_03">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="validDownPaymentTextBoxTest"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_03 -->
+      <class name="testScenario_003.TC_12">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="LASliderAndLoanInterestTallyCheck"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_12 -->
+      <class name="testScenario_003.TC_03">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="LoanInterestAndSliderTallyCheck"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_03 -->
+      <class name="testScenario_002.TC_14">
+        <methods>
+          <include name="invalidLoanFees"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_14 -->
+      <class name="testScenario_002.TC_15">
+        <methods>
+          <include name="validDataHomeLoanTest"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_15 -->
+      <class name="testScenario_003.TC_001">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="EMICalculatorPageTest"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_001 -->
+      <class name="testScenario_003.TC_09">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="LAEMIAndSliderTallyCheck"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_09 -->
+      <class name="testScenario_003.TC_16">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="LAsliderAndLoanFeesTallyCheck"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_16 -->
+      <class name="testScenario_003.TC_20">
+        <methods>
+          <include name="LTsliderAndEMITallyCheck"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_20 -->
+      <class name="testScenario_002.TC_07">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="validHomeLoanTerm"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_07 -->
+      <class name="testScenario_002.TC_09">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="invalidHomePrice"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_09 -->
+      <class name="testScenario_003.TC_17">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="LTLoanAmountAndSliderTallyCheck"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_17 -->
+      <class name="testScenario_002.TC_01">
+        <methods>
+          <include name="homeLoanPageTest"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_01 -->
+      <class name="testScenario_001.TC_07">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="invalidDataCarLoanTenureBoxTest"/>
+        </methods>
+      </class> <!-- testScenario_001.TC_07 -->
+      <class name="testScenario_003.TC_14">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="LAsliderAndLoanTermTallyCheck"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_14 -->
+      <class name="testScenario_003.TC_04">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="SliderAndLoanInterestTallyCheck"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_04 -->
+      <class name="testScenario_001.TC_05">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="invalidDataCarLoanBoxTest"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_001.TC_05 -->
+      <class name="testScenario_003.TC_13">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="LALoanTermAndSliderTallyCheck"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_13 -->
+      <class name="testScenario_003.TC_02">
+        <methods>
+          <include name="sliderAndLoanAmountTallyCheck"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_02 -->
+      <class name="testScenario_002.TC_11">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="invalidHomeLoanInsuranceAmount"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_11 -->
+      <class name="testScenario_002.TC_06">
+        <methods>
+          <include name="validHomeLoanInterest"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_06 -->
+      <class name="testScenario_002.TC_13">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="invalidHomeLoanTerm"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_13 -->
+      <class name="testScenario_001.TC_01">
+        <methods>
+          <include name="carLoanPageTest"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_001.TC_01 -->
+      <class name="testScenario_003.TC_18">
+        <methods>
+          <include name="LTsliderAndLoanAmountTallyCheck"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_18 -->
+      <class name="testScenario_001.TC_04">
+        <methods>
+          <include name="validDataCarLoanTenureBoxTest"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_001.TC_04 -->
+      <class name="testScenario_003.TC_11">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="LALoanInterestAndSliderTallyCheck"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_11 -->
+      <class name="testScenario_001.TC_02">
+        <methods>
+          <include name="validDataCarLoanBoxTest"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_001.TC_02 -->
+      <class name="testScenario_002.TC_08">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="validLoanFees"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_08 -->
+      <class name="testScenario_002.TC_10">
+        <methods>
+          <include name="invalidDownpayment"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_10 -->
+      <class name="testScenario_003.TC_05">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="LoanTermAndSliderTallyCheck"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_05 -->
+      <class name="testScenario_003.TC_22">
+        <methods>
+          <include name="LTSliderAndLoanInterestTallyCheck"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_22 -->
+      <class name="testScenario_003.TC_06">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="sliderAndLoanTermTallyCheck"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_06 -->
+      <class name="testScenario_003.TC_10">
+        <methods>
+          <include name="sliderAndEMITallyCheck"/>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_10 -->
+      <class name="testScenario_002.TC_04">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="validLoanInsurance"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testScenario_002.TC_04 -->
+      <class name="testScenario_003.TC_08">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getDriver"/>
+          <include name="sliderAndLoanFeesTallyCheck"/>
+        </methods>
+      </class> <!-- testScenario_003.TC_08 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="emiCalculator-1">
+
+	
+<!-- <parameter name="browsers"   value="chrome" /> -->
+	<test  name="EMI Calculator Test">
+			<classes>
+		    <class name="testScenario_001.TC_01"/>
+			<class name="testScenario_001.TC_02"/>
+			<class name="testScenario_001.TC_03"/>
+			<class name="testScenario_001.TC_04"/>
+			<class name="testScenario_001.TC_05"/>
+	      	<class name="testScenario_001.TC_06"/>
+	        <class name="testScenario_001.TC_07"/>
+	        <class name="testScenario_001.TC_08"/>
+	        <class name="testScenario_002.TC_01"/>
+	        <class name="testScenario_002.TC_02"/>
+	        <class name="testScenario_002.TC_03"/>
+	        <class name="testScenario_002.TC_04"/>
+			<class name="testScenario_002.TC_05"/>
+			<class name="testScenario_002.TC_06"/>
+			<class name="testScenario_002.TC_07"/>
+		    <class name="testScenario_002.TC_08"/>
+			<class name="testScenario_002.TC_09"/>
+			<class name="testScenario_002.TC_10"/>
+		    <class name="testScenario_002.TC_11"/>
+			<class name="testScenario_002.TC_12"/>
+			<class name="testScenario_002.TC_13"/>
+		    <class name="testScenario_002.TC_14"/>
+			<class name="testScenario_002.TC_15"/> 
+	        <class name="testScenario_003.TC_001"/>
+	        <class name="testScenario_003.TC_01"/>
+	        <class name="testScenario_003.TC_02"/>
+	        <class name="testScenario_003.TC_03"/>
+	        <class name="testScenario_003.TC_04"/>
+			<class name="testScenario_003.TC_05"/>
+			<class name="testScenario_003.TC_06"/>
+			<class name="testScenario_003.TC_07"/>
+		    <class name="testScenario_003.TC_08"/>
+			<class name="testScenario_003.TC_09"/>
+			<class name="testScenario_003.TC_10"/>
+		    <class name="testScenario_003.TC_11"/>
+			<class name="testScenario_003.TC_12"/>
+			<class name="testScenario_003.TC_13"/>
+		    <class name="testScenario_003.TC_14"/>
+			<class name="testScenario_003.TC_15"/>
+		    <class name="testScenario_003.TC_16"/>
+			<class name="testScenario_003.TC_17"/>
+			<class name="testScenario_003.TC_18"/>
+			<class name="testScenario_003.TC_19"/>
+			<class name="testScenario_003.TC_20"/>
+			<class name="testScenario_003.TC_21"/>
+		    <class name="testScenario_003.TC_22"/>
+			<class name="testScenario_003.TC_23"/>
+			<class name="testScenario_003.TC_24"/>       
+			</classes>
+	</test>
+</suite>
